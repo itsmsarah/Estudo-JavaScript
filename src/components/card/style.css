@@ -1,0 +1,18 @@
+.card{
+    background-color: lightcoral;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000;
+    padding: 20px;
+    transition: 0.5s;
+    width: 400px;
+ }
+ .card p{
+    color: white;
+    width: 300px;
+
+ }
+ .card:hover{
+    transform: scale(1.05);
+    /*aumentando o tamanho do card quando passa o mouser por cima */
+
+ }
