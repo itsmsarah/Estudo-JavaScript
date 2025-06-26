@@ -1,0 +1,47 @@
+.fundopizza{
+    background-image: url("../../assets/pizzas/background-img-pizza.avif");
+    
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    /* position: absolute; */
+    top: 200px;
+    left: 540px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 0px 0px black;
+
+
+}
+.fundopizza img{
+    position:fixed;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.fundopizza h1{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    left: 550px;
+}
+button{
+    position: relative;
+    top: 400px;
+    left: 290px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(200, 255, 0),rgb(255, 165, 0));
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+span{
+    color: red;
+}
